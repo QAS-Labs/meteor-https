@@ -1,0 +1,19 @@
+{
+  "name": "meteor-https",
+  "version": "1.1.1",
+  "description": "Simple https proxy server package for meteor using npm http-proxy",
+  "main": "package.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ADAIN/meteor-https.git"
+  },
+  "author": "ADAIN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ADAIN/meteor-https/issues"
+  },
+  "homepage": "https://github.com/ADAIN/meteor-https#readme"
+}

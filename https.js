@@ -53,7 +53,8 @@ if(process.env.USE_HTTPS !== undefined && process.env.USE_HTTPS === '1')
   var options = {
     ssl: {
       key: fs.readFileSync(PATH_TO_KEY, 'utf8'),
-      cert: fs.readFileSync(PATH_TO_CERT, 'utf8')
+      cert: fs.readFileSync(PATH_TO_CERT, 'utf8'),
+      secureOptions: Npm.require('constants').SSL_OP_NO_TLSv1
     },
     target : "http://" + TARGET_IP + ":" + TARGET_PORT,
     ws: true,
